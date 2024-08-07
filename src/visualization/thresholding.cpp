@@ -3,8 +3,6 @@
 #include <filesystem>
 #include <stdexcept>
 
-namespace fs = std::filesystem;
-
 // Callback function for trackbar
 void updateThreshold(int val, cv::Mat& image) {
     cv::Mat threshImage;
