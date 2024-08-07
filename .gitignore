@@ -9,3 +9,9 @@
 *.svg
 *.ico
 *.webp
+
+# Ignore all executable files
+*.exe
+
+# Ignore the test file
+test.cpp
